@@ -1,1 +1,21 @@
-<h1>Hero</h1>
+---
+import * as cv from '@cv'
+import { type Resume } from '@/types/resume'
+
+const data: Resume = JSON.parse(JSON.stringify(cv))
+
+const { name, label, email, summary, image, profiles, phone, location} = data.basics
+const {city, region } = location
+---
+<section>
+    <div class="container">
+        <div class="info">
+            <h1>{name}</h1>
+            <h2>{label}</h2>
+        </div>
+
+    </div>
+</section>
+<style>
+
+</style>
