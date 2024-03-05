@@ -3,7 +3,7 @@
   "basics": {
     "name": "David Rosero Calle",
     "label": "Full Stack Developer con enfoque en DevOps & Cloud, actualmente trabajando como Principal SRE.",
-    "image": "/me.webp",
+    "image": "https://pub-d12b8f22ee794b99aab142caa6f31b20.r2.dev/IMG_0988-removebg-preview.jpg",
     "email": "davidroserocalle@gmail.com",
     "phone": "(57) 350 6372445",
     "url": "http://richardhendricks.example.com",
@@ -372,8 +372,12 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Ingles",
+      "fluency": "B1"
     }
   ],
   "interests": [
@@ -393,27 +397,108 @@
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "Creacion entorno de QA para aplicaciones .Net, Go, Angular y React",
+      "description": "Por medio de terraform se generan los ambientes tanto para el backend como para el frontend en una arquitectura compleja",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "Terraform",
+        "Terragrunt",
+        "Packer",
+        "Azure"
       ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
       "roles": [
-        "Team lead",
-        "Designer"
+        "DevOps",
+        "Cloud"
       ],
       "entity": "Smoogle",
-      "type": "application"
+      "type": "IaC"
+    },
+    {
+      "name": "Migracion de recursos de Azure subscricion a otra subscricion",
+      "description": "Migracion de recursos tales como VM, App Services, Function Apps, SQL, KeyVaults, Storage, FrontDoors y Application Gateway. de una subscricion a otra por medio de terraform y terragrunt",
+      "highlights": [
+        "Cloud",
+        "Azure"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "DevOps",
+        "Cloud"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    },
+    {
+      "name": "Reduccion de costos para entornos K8S",
+      "description": "Integracion, configuracion y activacion de herramientas de monitoreo y autoscaling para reducir costos en entornos de kubernetes",
+      "highlights": [
+        "Cloud",
+        "Azure",
+        "Kubernetes",
+        "Spot Instances"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "DevOps",
+        "Cloud"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    },
+    {
+      "name": "Migracion de modelo de CI/CD de Harness a GitHub Actions",
+      "description": "Migracion de pipelines de CI/CD de Harness a GitHub Actions, creacion de herramientas de CLI para el equipo de desarrollo",
+      "highlights": [
+        "CICD",
+        "Harness",
+        "Github Actions",
+        "Automatizacion"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "DevOps",
+        "Cloud"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    },
+    {
+      "name": "Instalacion, configuracion y mantenimiento de controladora ruckus",
+      "description": "Implementacion de un servidor fisico para la implementacion de controladora ruckus, para la gestion de diferentes dispositivos de red",
+      "highlights": [
+        "Vlan",
+        "Network",
+        "Rucks",
+        "VMware"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "SysOps",
+        "System Operator",
+        "Network"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
     }
   ],
   "meta": {
