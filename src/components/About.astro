@@ -1,1 +1,15 @@
-<h1>About</h1>
+---
+import Section from '@/components/Section.astro'
+import * as cv from '@cv'
+import { type Resume } from '@/types/resume'
+// Get the data from the cv.json file
+const data: Resume = JSON.parse(JSON.stringify(cv))
+
+const { summary } = data.basics
+
+---
+
+
+<Section title="About">
+    <p>{summary}</p>
+</Section>

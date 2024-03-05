@@ -47,7 +47,7 @@ export interface Resume {
     position: string
     url: string
     startDate: string
-    endDate: string
+    endDate: string | null
     summary: string
     highlights: string[]
   }

@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "David Rosero Calle",
-    "label": "Desarrollador de Software, DevOps, SRE",
-    "image": "https://pub-d12b8f22ee794b99aab142caa6f31b20.r2.dev/1.jpeg",
+    "label": "Full Stack Developer con enfoque en DevOps & Cloud, actualmente trabajando como Principal SRE.",
+    "image": "/me.webp",
     "email": "davidroserocalle@gmail.com",
-    "phone": "(912) 555-4321",
+    "phone": "(57) 350 6372445",
     "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "Me encanta trabajar en proyectos que me permitan aprender y crecer profesionalmente, me gusta trabajar en equipo y compartir conocimientos con mis compañeros, me considero una persona proactiva, autodidacta y con gran capacidad de adaptación. Cuento con +4 años de experiencia como DevOps y +2 años de experiencia como SRE, actualmente me encuentro trabajando como Principal SRE en una empresa de tecnología ubicada en diferentes paises de latam.",
     "location": {
       "address": "",
       "postalCode": "CA 94115",
@@ -17,31 +17,102 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "Linkedin",
+        "username": "David Rosero Calle",
+        "url": "https://www.linkedin.com/in/david-rosero-calle-1aa6a2126/"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "Github",
+        "username": "drc288",
+        "url": "https://github.com/drc288"
+      },
+      {
+        "network": "Spotify",
+        "username": "David Rosero Calle",
+        "url": "https://open.spotify.com/user/davidroserocalle"
       }
     ]
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "Siigo S.A",
+      "location": "Colombia, Mexico, Ecuador, Uruguay",
+      "description": "Siigo S.A. es una empresa dedicada al desarrollo, comercialización, mantenimiento, implementación, soporte y actualización de software para la administración de negocios y contabilidad.",
+      "position": "Principal SRE",
+      "url": "https://www.siigo.com/",
+      "startDate": "2024-01-01",
+      "endDate": null,
+      "summary": "Trabajo en la investigacion de nuevas herramientas, administracion de entornos de k8s, integrar herramientas de monitoreo en las diferentes aplicaciones que conforman el negocio, administrar, mantener y mejorar el CICD dependiendo la tecnologia (Github Actions, Harness, Azure DevOps)",
+      "highlights": []
+    },
+    {
+      "name": "Siigo S.A",
+      "location": "Colombia, Mexico, Ecuador, Uruguay",
+      "description": "Siigo S.A. es una empresa dedicada al desarrollo, comercialización, mantenimiento, implementación, soporte y actualización de software para la administración de negocios y contabilidad.",
+      "position": "DevOps/SRE Tech Lead",
+      "url": "https://www.siigo.com/",
+      "startDate": "2022-03-01",
+      "endDate": "2024-12-31",
+      "summary": "Lidere un equipo de desarrollo y operaciones (4-6), migracion de herramientas de CICD, creacion de herramientas de CLI para el equipo de desarrollo, implementacion de herramientas de monitoreo, creacion de herramientas de infraestructura como codigo, apoyo a los equipos de seguridad y desarrollo en la implementacion de herramientas de seguridad y calidad de codigo.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Migracion harness a github actions",
+        "CLI Go",
+        "Site 24/7",
+        "SecOps",
+        "GitHub Actions",
+        "Team Lead"
+      ]
+    },
+    {
+      "name": "Siigo S.A",
+      "location": "Colombia, Mexico, Ecuador, Uruguay",
+      "description": "Siigo S.A. es una empresa dedicada al desarrollo, comercialización, mantenimiento, implementación, soporte y actualización de software para la administración de negocios y contabilidad.",
+      "position": "DevOps/SRE",
+      "url": "https://www.siigo.com/",
+      "startDate": "2021-01-01",
+      "endDate": "2022-02-30",
+      "summary": "Trabaje en la gestion de entornos de kubernetes en diferentes paises y entornos, implementacion de la herramienta harness CICD, Gestion de empaqetado de aplicaciones por medio de helm, mantenimioento de los servicios a nivel de frontend (Angular, React) y backend (.Net, Go), Dockerizacion de aplicaciones en Linux y Windows.",
+      "highlights": [
+        "Kubernetes multipais",
+        "Harness",
+        "Helm",
+        "Microservicios",
+        "Microfrontends",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Siigo S.A",
+      "location": "Colombia, Mexico, Ecuador, Uruguay",
+      "description": "Siigo S.A. es una empresa dedicada al desarrollo, comercialización, mantenimiento, implementación, soporte y actualización de software para la administración de negocios y contabilidad.",
+      "position": "Jr DevOps",
+      "url": "https://www.siigo.com/",
+      "startDate": "2020-03-15",
+      "endDate": "2021-01-01",
+      "summary": "Creacion de entornos por medio de terraform y terragrunt, implementacion de arquitectura serverless, Mantenimiento de pipelines de CI/CD por medio de Azure DevOps, creacion de diferentes automatizaciones por medio de function apps",
+      "highlights": [
+        "Azure",
+        "Azure DevOps",
+        "Terraform & Terragrunt",
+        "Serverless",
+        "Function Apps"
+      ]
+    },
+    {
+      "name": "Ticline S.A.S",
+      "location": "Colombia - Medellin",
+      "description": "Ticline fue fundada en el 2010 en la ciudad de Medellín como una empresa de consultoría en Gobierno en Línea para el sector gobierno, luego fue evolucionando y concentrándose en implementación de soluciones de tecnologías inalámbricas principalmente WIFI y banda ancha inalámbrica para enlaces de sedes remotas de Colombia",
+      "position": "Analista de Desarrollo",
+      "url": "https://www.siigo.com/",
+      "startDate": "2017-11-01",
+      "endDate": "2019-06-01",
+      "summary": "Instalacion de servidores fisicos en Datacenter para el sector del gobierno, cableado estructurado, implementacion de routers mikrotik para conecciones IPSec (VPN), Administrador de redes y servidores on-premise, implementacion de soluciones de monitoreo y seguridad como Cacti y Nagios.",
+      "highlights": [
+        "Linux",
+        "Redes",
+        "MikoTik",
+        "Datacenter",
+        "Function Apps"
       ]
     }
   ],
@@ -60,16 +131,48 @@
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
+      "institution": "Holberton School",
+      "url": "https://www.holbertoncoderise.com/software-development?utm_source=Google&utm_medium=Search&utm_campaign=Campa%C3%B1a_ADQ_ADM&utm_id=Campa%C3%B1a_ADQ_ADM&gad_source=1&gclid=CjwKCAiA_5WvBhBAEiwAZtCU75EI0Gdu-tzIY8o7EGt56LYKdpfnxGL74Pb6MNUWtE5hVHVexrw2oBoCO2AQAvD_BwE",
+      "area": "Full Stack Developer",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
+      "startDate": "2019-01-01",
+      "endDate": "2020-12-30",
+      "score": null,
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "Bash",
+        "Python",
+        "C",
+        "DevOps",
+        "Algorithms"
+      ]
+    },
+    {
+      "institution": "SENA",
+      "url": "https://oferta.senasofiaplus.edu.co/sofia-oferta/",
+      "area": "Tecnologo en redes de datos",
+      "studyType": "Bachelor",
+      "startDate": "2016-01-01",
+      "endDate": "2017-12-30",
+      "score": null,
+      "courses": [
+        "REDES",
+        "MANTENIMIENTO DE EQUIPOS",
+        "PROGRAMACION BASH",
+        "CISCO CCNA"
+      ]
+    },
+    {
+      "institution": "CEFIT",
+      "url": "https://centro-de-formacion-integral-para-el-trabajo-cefit.micolombiadigital.gov.co/",
+      "area": "Tecnico en Sistemas",
+      "studyType": "Bachelor",
+      "startDate": "2014-01-01",
+      "endDate": "2015-12-30",
+      "score": null,
+      "courses": [
+        "REDES",
+        "MANTENIMIENTO DE EQUIPOS",
+        "PROGRAMACION"
       ]
     }
   ],
@@ -92,21 +195,178 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Docker",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Containers",
+        "Microservices"
       ]
     },
     {
-      "name": "Compression",
+      "name": "Kubernetes",
       "level": "Master",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Orchestration",
+        "Containers"
+      ]
+    },
+    {
+      "name": "Azure",
+      "level": "Master",
+      "keywords": [
+        "Cloud",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "name": "Terraform",
+      "level": "Master",
+      "keywords": [
+        "IaC",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Bash",
+      "level": "Master",
+      "keywords": [
+        "Scripting",
+        "CLI"
+      ]
+    },
+    {
+      "name": "Go",
+      "level": "Master",
+      "keywords": [
+        "Backend",
+        "CLI"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "Backend",
+        "Function Apps"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Automatizacion",
+        "CaC"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "GitHub Actions",
+      "level": "Master",
+      "keywords": [
+        "CICD",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Harness",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "Azure DevOps",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "Helm",
+      "level": "Master",
+      "keywords": [
+        "Kubernetes",
+        "Empaquetado"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Master",
+      "keywords": [
+        "Sistema Operativo",
+        "Servidores"
+      ]
+    },
+    {
+      "name": "Windows Server",
+      "level": "Master",
+      "keywords": [
+        "Sistema Operativo",
+        "Servidores"
+      ]
+    },
+    {
+      "name": "Ansible",
+      "level": "Master",
+      "keywords": [
+        "Automatizacion",
+        "CaC"
+      ]
+    },
+    {
+      "name": "npm",
+      "level": "Master",
+      "keywords": [
+        "Automatizacion",
+        "CaC"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Master",
+      "keywords": [
+        "Web"
+      ]
+    },
+    {
+      "name": "Fast Api",
+      "level": "Master",
+      "keywords": [
+        "Backend",
+        "Automatizacion"
       ]
     }
   ],

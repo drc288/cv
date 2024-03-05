@@ -1,1 +1,45 @@
-<h1>Skills</h1>
+---
+import Section from '@/components/Section.astro'
+import * as cv from '@cv'
+import { type Resume } from '@/types/resume'
+// Get the data from the cv.json file
+const data: Resume = JSON.parse(JSON.stringify(cv))
+
+const skills = data.skills
+---
+
+
+<Section title="Skills">
+    <ul>
+        {skills.map((skill, index) => {
+            const { name } = skill
+            return (
+                    <li key={index}>{name}</li>
+            )
+        })}
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    li {
+        border-radius: 6px;
+        color: white;
+        background: black;
+        border: 1px solid white;
+        font-size: .8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+        transition: color .2s;
+        &:hover {
+            color: black;
+            font-weight: bold;
+            border: 1px solid black;
+            background: #f8f8f8;
+        }
+    }
+</style>
