@@ -113,7 +113,7 @@ export interface Resume {
     name: string
     description: string
     highlights: string[]
-    isActive: boolean
+    isActived: boolean
     keywords: string[]
     startDate: string
     endDate: string

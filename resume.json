@@ -437,6 +437,27 @@
       "type": "IaC"
     },
     {
+      "name": "CLI de gestion de secretos para Azure KeyVault",
+      "description": "Se elavora un CLI por medio de cobra-cli (go) para la gestion de secretos, lo cual permitia un movimiento rapido de secretos entre entrono al igual de poderlo utilizar dentro de los proceso de CICD",
+      "highlights": [
+        "CLI",
+        "Go",
+        "Azure",
+        "KeyVault"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "DevOps",
+        "Cloud"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    },
+    {
       "name": "Reduccion de costos para entornos K8S",
       "description": "Integracion, configuracion y activacion de herramientas de monitoreo y autoscaling para reducir costos en entornos de kubernetes",
       "highlights": [
@@ -484,7 +505,7 @@
       "highlights": [
         "Vlan",
         "Network",
-        "Rucks",
+        "Ruckus",
         "VMware"
       ],
       "isActived": false,

@@ -12,12 +12,15 @@ const projects = data.projects
 <Section title="Projects">
     <ul>
         {projects.map((project, index) => {
-            const { name, description, highlights, isActive } = project
+            const { name, description, highlights, isActived } = project
             return (
                     <li>
                         <article>
                             <header>
-                                <h3>{name}</h3>
+                                <h3>
+                                    {name}
+                                    {isActived && <span>&bull;</span>}
+                                </h3>
                                 <p>{description}</p>
                             </header>
                             <footer>
@@ -57,6 +60,14 @@ const projects = data.projects
             flex: 1;
         }
         h3 {
+            margin-bottom: 6px;
+            span {
+                color: rgb(80, 230, 78);
+            }
+        }
+        p {
+            font-size: 0.8rem;
+            line-height: 1.2rem;
             margin-bottom: 6px;
         }
     }
