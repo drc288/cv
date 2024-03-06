@@ -1,0 +1,530 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "David Rosero Calle",
+    "label": "Full Stack Developer with focus on DevOps & Cloud, currently working as Principal SRE.",
+    "image": "https://pub-d12b8f22ee794b99aab142caa6f31b20.r2.dev/IMG_0988-removebg-preview.jpg",
+    "email": "davidroserocalle@gmail.com",
+    "phone": "(57) 350 6372445",
+    "url": "http://richardhendricks.example.com",
+    "summary": "I love working on projects that allow me to learn and grow professionally, I like to work in a team and share knowledge with my colleagues, I consider myself a proactive person, self-taught and with great adaptability. I have +4 years of experience as DevOps and +2 years of experience as SRE, currently I am working as Principal SRE in a technology company located in different countries of latam.",
+    "location": {
+      "address": "",
+      "postalCode": "CA 94115",
+      "city": "Medellin",
+      "countryCode": "COL",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "David Rosero Calle",
+        "url": "https://www.linkedin.com/in/david-rosero-calle-1aa6a2126/"
+      },
+      {
+        "network": "Spotify",
+        "username": "David Rosero Calle",
+        "url": "https://open.spotify.com/user/davidroserocalle"
+      },
+      {
+        "network": "Github",
+        "username": "drc288",
+        "url": "https://github.com/drc288"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Siigo S.A",
+      "location": "Colombia, Mexico, Ecuador, Uruguay",
+      "description": "Siigo S.A. is a company dedicated to the development, commercialization, maintenance, implementation, support and updating of software for business administration and accounting.",
+      "position": "Principal SRE",
+      "url": "https://www.siigo.com/",
+      "startDate": "2024-01-01",
+      "endDate": null,
+      "summary": "I work in the research of new tools, management of k8s environments, integrate monitoring tools in the different applications that make up the business, manage, maintain and improve the CICD depending on the technology (Github Actions, Harness, Azure DevOps).",
+      "highlights": []
+    },
+    {
+      "name": "Siigo S.A",
+      "location": "Colombia, Mexico, Ecuador, Uruguay",
+      "description": "Siigo S.A. is a company dedicated to the development, commercialization, maintenance, implementation, support and updating of software for business administration and accounting.",
+      "position": "DevOps/SRE Tech Lead",
+      "url": "https://www.siigo.com/",
+      "startDate": "2022-03-01",
+      "endDate": "2024-12-31",
+      "summary": "Lead a development and operations team (4-6), migrate CICD tools, create CLI tools for development team, implement monitoring tools, create infrastructure tools as code, support security and development teams in implementing security and code quality tools.",
+      "highlights": [
+        "Migration harness to github actions",
+        "CLI Go",
+        "Site 24/7",
+        "SecOps",
+        "GitHub Actions",
+        "Team Lead"
+      ]
+    },
+    {
+      "name": "Siigo S.A",
+      "location": "Colombia, Mexico, Ecuador, Uruguay",
+      "description": "Siigo S.A. is a company dedicated to the development, commercialization, maintenance, implementation, support and updating of software for business administration and accounting.",
+      "position": "DevOps/SRE",
+      "url": "https://www.siigo.com/",
+      "startDate": "2021-01-01",
+      "endDate": "2022-02-30",
+      "summary": "I worked in the management of Kubernetes environments in different countries and environments, implementation of the CICD harness tool, application packaging management through helm, maintenance of services at frontend (Angular, React) and backend (.Net, Go), Dockerization of applications on Linux and Windows.",
+      "highlights": [
+        "Kubernetes multipais",
+        "Harness",
+        "Helm",
+        "Microservicios",
+        "Microfrontends",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Siigo S.A",
+      "location": "Colombia, Mexico, Ecuador, Uruguay",
+      "description": "Siigo S.A. is a company dedicated to the development, commercialization, maintenance, implementation, support and updating of software for business administration and accounting.",
+      "position": "Jr DevOps",
+      "url": "https://www.siigo.com/",
+      "startDate": "2020-03-15",
+      "endDate": "2021-01-01",
+      "summary": "Creation of environments through terraform and terragrunt, implementation of serverless architecture, maintenance of CI/CD pipelines through Azure DevOps, creation of different automations through function apps.",
+      "highlights": [
+        "Azure",
+        "Azure DevOps",
+        "Terraform & Terragrunt",
+        "Serverless",
+        "Function Apps"
+      ]
+    },
+    {
+      "name": "Ticline S.A.S",
+      "location": "Colombia - Medellin",
+      "description": "Ticline was founded in 2010 in the city of Medellin as a consulting company in Online Government for the government sector, then it evolved and focused on implementation of wireless technology solutions mainly WIFI and wireless broadband for links to remote locations in Colombia.",
+      "position": "Analista de Desarrollo",
+      "url": "https://www.siigo.com/",
+      "startDate": "2017-11-01",
+      "endDate": "2019-06-01",
+      "summary": "Installation of physical servers in Datacenter for the government sector, structured cabling, implementation of mikrotik routers for IPSec connections (VPN), network administrator and on-premise servers, implementation of monitoring and security solutions such as Cacti and Nagios.Installation of physical servers in Datacenter for the government sector, structured cabling, implementation of mikrotik routers for IPSec connections (VPN), network administrator and on-premise servers, implementation of monitoring and security solutions such as Cacti and Nagios.",
+      "highlights": [
+        "Linux",
+        "Redes",
+        "MikoTik",
+        "Datacenter",
+        "Function Apps"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "url": "http://coderdojo.example.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Holberton School",
+      "url": "https://www.holbertoncoderise.com/software-development?utm_source=Google&utm_medium=Search&utm_campaign=Campa%C3%B1a_ADQ_ADM&utm_id=Campa%C3%B1a_ADQ_ADM&gad_source=1&gclid=CjwKCAiA_5WvBhBAEiwAZtCU75EI0Gdu-tzIY8o7EGt56LYKdpfnxGL74Pb6MNUWtE5hVHVexrw2oBoCO2AQAvD_BwE",
+      "area": "Full Stack Developer",
+      "studyType": "Bachelor",
+      "startDate": "2019-01-01",
+      "endDate": "2020-12-30",
+      "score": null,
+      "courses": [
+        "Bash",
+        "Python",
+        "C",
+        "DevOps",
+        "Algorithms"
+      ]
+    },
+    {
+      "institution": "SENA",
+      "url": "https://oferta.senasofiaplus.edu.co/sofia-oferta/",
+      "area": "Data Network Technologist",
+      "studyType": "Bachelor",
+      "startDate": "2016-01-01",
+      "endDate": "2017-12-30",
+      "score": null,
+      "courses": [
+        "REDES",
+        "MANTENIMIENTO DE EQUIPOS",
+        "PROGRAMACION BASH",
+        "CISCO CCNA"
+      ]
+    },
+    {
+      "institution": "CEFIT",
+      "url": "https://centro-de-formacion-integral-para-el-trabajo-cefit.micolombiadigital.gov.co/",
+      "area": "Tecnico en Sistemas",
+      "studyType": "Bachelor",
+      "startDate": "2014-01-01",
+      "endDate": "2015-12-30",
+      "score": null,
+      "courses": [
+        "REDES",
+        "MANTENIMIENTO DE EQUIPOS",
+        "PROGRAMACION"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Docker",
+      "level": "Master",
+      "keywords": [
+        "Containers",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Master",
+      "keywords": [
+        "Orchestration",
+        "Containers"
+      ]
+    },
+    {
+      "name": "Azure",
+      "level": "Master",
+      "keywords": [
+        "Cloud",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "name": "Terraform",
+      "level": "Master",
+      "keywords": [
+        "IaC",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Bash",
+      "level": "Master",
+      "keywords": [
+        "Scripting",
+        "CLI"
+      ]
+    },
+    {
+      "name": "Go",
+      "level": "Master",
+      "keywords": [
+        "Backend",
+        "CLI"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "Backend",
+        "Function Apps"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Automatizacion",
+        "CaC"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "GitHub Actions",
+      "level": "Master",
+      "keywords": [
+        "CICD",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Harness",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "Azure DevOps",
+      "level": "Master",
+      "keywords": [
+        "Control de versiones",
+        "Colaboracion"
+      ]
+    },
+    {
+      "name": "Helm",
+      "level": "Master",
+      "keywords": [
+        "Kubernetes",
+        "Empaquetado"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Master",
+      "keywords": [
+        "Sistema Operativo",
+        "Servidores"
+      ]
+    },
+    {
+      "name": "Windows Server",
+      "level": "Master",
+      "keywords": [
+        "Sistema Operativo",
+        "Servidores"
+      ]
+    },
+    {
+      "name": "Ansible",
+      "level": "Master",
+      "keywords": [
+        "Automatizacion",
+        "CaC"
+      ]
+    },
+    {
+      "name": "npm",
+      "level": "Master",
+      "keywords": [
+        "Automatizacion",
+        "CaC"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Master",
+      "keywords": [
+        "Web"
+      ]
+    },
+    {
+      "name": "Fast Api",
+      "level": "Master",
+      "keywords": [
+        "Backend",
+        "Automatizacion"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Ingles",
+      "fluency": "B1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Creacion entorno de QA para aplicaciones .Net, Go, Angular y React",
+      "description": "Por medio de terraform se generan los ambientes tanto para el backend como para el frontend en una arquitectura compleja",
+      "highlights": [
+        "Terraform",
+        "Terragrunt",
+        "Packer",
+        "Azure"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "DevOps",
+        "Cloud"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    },
+    {
+      "name": "Migracion de recursos de Azure subscricion a otra subscricion",
+      "description": "Migracion de recursos tales como VM, App Services, Function Apps, SQL, KeyVaults, Storage, FrontDoors y Application Gateway. de una subscricion a otra por medio de terraform y terragrunt",
+      "highlights": [
+        "Cloud",
+        "Azure"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "DevOps",
+        "Cloud"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    },
+    {
+      "name": "CLI de gestion de secretos para Azure KeyVault",
+      "description": "Se elavora un CLI por medio de cobra-cli (go) para la gestion de secretos, lo cual permitia un movimiento rapido de secretos entre entrono al igual de poderlo utilizar dentro de los proceso de CICD",
+      "highlights": [
+        "CLI",
+        "Go",
+        "Azure",
+        "KeyVault"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "DevOps",
+        "Cloud"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    },
+    {
+      "name": "Reduccion de costos para entornos K8S",
+      "description": "Integracion, configuracion y activacion de herramientas de monitoreo y autoscaling para reducir costos en entornos de kubernetes",
+      "highlights": [
+        "Cloud",
+        "Azure",
+        "Kubernetes",
+        "Spot Instances"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "DevOps",
+        "Cloud"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    },
+    {
+      "name": "Migracion de modelo de CI/CD de Harness a GitHub Actions",
+      "description": "Migracion de pipelines de CI/CD de Harness a GitHub Actions, creacion de herramientas de CLI para el equipo de desarrollo",
+      "highlights": [
+        "CICD",
+        "Harness",
+        "Github Actions",
+        "Automatizacion"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "DevOps",
+        "Cloud"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    },
+    {
+      "name": "Instalacion, configuracion y mantenimiento de controladora ruckus",
+      "description": "Implementacion de un servidor fisico para la implementacion de controladora ruckus, para la gestion de diferentes dispositivos de red",
+      "highlights": [
+        "Vlan",
+        "Network",
+        "Ruckus",
+        "VMware"
+      ],
+      "isActived": false,
+      "keywords": [],
+      "startDate": null,
+      "endDate": null,
+      "url": null,
+      "roles": [
+        "SysOps",
+        "System Operator",
+        "Network"
+      ],
+      "entity": "Smoogle",
+      "type": "IaC"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
