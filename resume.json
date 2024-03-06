@@ -22,14 +22,14 @@
         "url": "https://www.linkedin.com/in/david-rosero-calle-1aa6a2126/"
       },
       {
-        "network": "Github",
-        "username": "drc288",
-        "url": "https://github.com/drc288"
-      },
-      {
         "network": "Spotify",
         "username": "David Rosero Calle",
         "url": "https://open.spotify.com/user/davidroserocalle"
+      },
+      {
+        "network": "Github",
+        "username": "drc288",
+        "url": "https://github.com/drc288"
       }
     ]
   },

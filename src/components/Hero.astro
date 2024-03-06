@@ -19,6 +19,15 @@ const ICONS: Record<string, any> = {
     Spotify,
     Linkedin
 }
+
+let contactsInPrint = `${email} • ${phone}`
+
+profiles.map((profile, index) => {
+    const { url, network} = profile
+    if (network === "Spotify" || network === "Github") return
+    contactsInPrint = contactsInPrint + ` • ${url}`
+}, contactsInPrint)
+
 ---
 <Section title={name}>
     <div class="container">
@@ -29,44 +38,49 @@ const ICONS: Record<string, any> = {
                 {city}, {region}
             </span>
             <footer>
-                {
-                    email && (
-                        <a 
-                            href={`mailto:${email}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <Mail />
-                        </a>
-                    )
-                }
-                {
-                    phone && (
-                        <a
-                            href={`tel:${phone}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <Phone />
-                        </a>
-                    )
-                }
-                {
-                    profiles.map((profile, index) => {
-                        const { network, url } = profile
-                        const Icon = ICONS[network]
-                        return (
-                            <a
-                                href={url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <Icon />
-                            </a>
-
+                <div class="print">
+                    {contactsInPrint}
+                </div>
+                <div class="no-print">
+                    {
+                        email && (
+                                    <a
+                                            href={`mailto:${email}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                    >
+                                        <Mail />
+                                    </a>
                         )
-                    })
-                }
+                    }
+                    {
+                        phone && (
+                                    <a
+                                            href={`tel:${phone}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                    >
+                                        <Phone />
+                                    </a>
+                        )
+                    }
+                    {
+                        profiles.map((profile, index) => {
+                            const { network, url } = profile
+                            const Icon = ICONS[network]
+                            return (
+                                    <a
+                                            href={url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                    >
+                                        <Icon />
+                                    </a>
+
+                            )
+                        })
+                    }
+                </div>
             </footer>
         </div>
         <figure>
@@ -132,6 +146,23 @@ const ICONS: Record<string, any> = {
                 border: 1px solid #ccc;
                 background: #f8f8f8;
             }
+        }
+    }
+    .print {
+        display: none;
+    }
+    @media print {
+        .print {
+            font-size: .65rem;
+            color: #666;
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: .25rem;
+            letter-spacing: -0.05rem;
+        }
+        .no-print {
+            display: none;
         }
     }
 </style>
