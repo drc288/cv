@@ -16,27 +16,33 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
-        uses: withastro/action@v2
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1.1.1
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+      - name: Build
+        run: bun run build
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: dist
+          path: dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
-      name: github-pages
+      name: Cloudflare Pages
       url: cv.d-rose.io
     steps:
-      - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: dist
+          path: dist
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: 1ebcdad7f395c27dbd5a21810ae9d518
-          projectName: CV
-          directory: dist
-          # Optional: Enable this if you want to have GitHub Deployments triggered
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          # Optional: Change the working directory
-          workingDirectory: my-site
-          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
-          wranglerVersion: '3'
+          accountId: 38d5d89bcdaf995293ada66caafe9428
+          command: pages deploy dist --project-name=cv
