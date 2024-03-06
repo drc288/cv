@@ -21,6 +21,12 @@ Para construir el proyecto para producción, ejecuta el siguiente comando:
 npm run build
 ```
 
+### Despliegue
+
+[![Deploy to GitHub Pages](https://github.com/drc288/cv/actions/workflows/action.yml/badge.svg)](https://github.com/drc288/cv/actions/workflows/action.yml)
+
+Despliegue utilizando GitHub Actions.
+
 ### Basado en
 
 Esquema utilizado [jsonresume](https://jsonresume.org/schema/)
