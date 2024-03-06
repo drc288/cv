@@ -164,7 +164,7 @@
     {
       "institution": "CEFIT",
       "url": "https://centro-de-formacion-integral-para-el-trabajo-cefit.micolombiadigital.gov.co/",
-      "area": "Tecnico en Sistemas",
+      "area": "System Technique",
       "studyType": "Bachelor",
       "startDate": "2014-01-01",
       "endDate": "2015-12-30",
@@ -397,8 +397,8 @@
   ],
   "projects": [
     {
-      "name": "Creacion entorno de QA para aplicaciones .Net, Go, Angular y React",
-      "description": "Por medio de terraform se generan los ambientes tanto para el backend como para el frontend en una arquitectura compleja",
+      "name": "QA environment creation for .Net, Go, Angular and React applications.",
+      "description": "By means of terraform the environments for both the backend and the frontend are generated in a complex architecture.",
       "highlights": [
         "Terraform",
         "Terragrunt",
@@ -418,8 +418,8 @@
       "type": "IaC"
     },
     {
-      "name": "Migracion de recursos de Azure subscricion a otra subscricion",
-      "description": "Migracion de recursos tales como VM, App Services, Function Apps, SQL, KeyVaults, Storage, FrontDoors y Application Gateway. de una subscricion a otra por medio de terraform y terragrunt",
+      "name": "Migration of resources from Azure subscription to another subscription",
+      "description": "Migration of resources such as VM, App Services, Function Apps, SQL, KeyVaults, Storage, FrontDoors and Application Gateway from one subscription to another via terraform and terragrunt.",
       "highlights": [
         "Cloud",
         "Azure"
@@ -437,8 +437,8 @@
       "type": "IaC"
     },
     {
-      "name": "CLI de gestion de secretos para Azure KeyVault",
-      "description": "Se elavora un CLI por medio de cobra-cli (go) para la gestion de secretos, lo cual permitia un movimiento rapido de secretos entre entrono al igual de poderlo utilizar dentro de los proceso de CICD",
+      "name": "Secret Management CLI for Azure KeyVault",
+      "description": "A CLI is developed through cobra-cli (go) for the management of secrets, which allows for fast movement of secrets between environments as well as for use within the CICD process.",
       "highlights": [
         "CLI",
         "Go",
@@ -458,8 +458,8 @@
       "type": "IaC"
     },
     {
-      "name": "Reduccion de costos para entornos K8S",
-      "description": "Integracion, configuracion y activacion de herramientas de monitoreo y autoscaling para reducir costos en entornos de kubernetes",
+      "name": "Cost reduction for K8S environments",
+      "description": "Integration, configuration and activation of monitoring and autoscaling tools to reduce costs in kubernetes environments.",
       "highlights": [
         "Cloud",
         "Azure",
@@ -479,8 +479,8 @@
       "type": "IaC"
     },
     {
-      "name": "Migracion de modelo de CI/CD de Harness a GitHub Actions",
-      "description": "Migracion de pipelines de CI/CD de Harness a GitHub Actions, creacion de herramientas de CLI para el equipo de desarrollo",
+      "name": "Migration of CI/CD model from Harness to GitHub Actions",
+      "description": "Migration of CI/CD pipelines from Harness to GitHub Actions, creation of CLI tools for the development team.",
       "highlights": [
         "CICD",
         "Harness",
@@ -500,8 +500,8 @@
       "type": "IaC"
     },
     {
-      "name": "Instalacion, configuracion y mantenimiento de controladora ruckus",
-      "description": "Implementacion de un servidor fisico para la implementacion de controladora ruckus, para la gestion de diferentes dispositivos de red",
+      "name": "Installation, configuration and maintenance of ruckus controllers",
+      "description": "Implementation of a physical server for the implementation of a ruckus controller, for the management of different network devices.",
       "highlights": [
         "Vlan",
         "Network",

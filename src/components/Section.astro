@@ -1,17 +1,60 @@
 ---
+import { fade } from 'astro:transitions';
+
 interface Props {
 	title: string;
+    esEn: boolean;
 }
 
-const { title} = Astro.props;
+const { title, esEn = false } = Astro.props;
 ---
 
 <section>
-    {title && <h2>{title}</h2>}
+    <header>
+        {title && <h2>{title}</h2>}
+        {
+            esEn && (
+                <div>
+                    <a href="/es">ES</a>
+                    <a href="/en">EN</a>
+                </div>
+            )
+        }
+    </header>
     <slot />
 </section>
 
 <style>
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+        a {
+            color: #666;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #eee;
+            padding: 4px;
+            height: 32px;
+            width: 32px;
+            border-radius: 20%;
+            transition: color .2s;
+            &:hover {
+                color: #000;
+                border: 1px solid #ccc;
+                background: #f8f8f8;
+            }
+        }
+    }
+
+    @media print {
+        a {
+            display: none;
+        }
+    }
+
     section {
         max-width: 700px;
         margin: 0 auto 32px;

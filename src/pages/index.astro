@@ -1,5 +1,7 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import * as cv from '@cv-es'
+import { type Resume } from '@/types/resume'
 
 import Hero from '@/components/Hero.astro';
 import About from '@/components/About.astro';
@@ -7,16 +9,19 @@ import Education from '@/components/Education.astro';
 import Experience from '@/components/Experience.astro';
 import Skills from '@/components/Skills.astro';
 import Projects from '@/components/Projects.astro';
+
+const resume: Resume = JSON.parse(JSON.stringify(cv))
+
 ---
 
 <Layout title="CV">
 	<main>
-		<Hero/>
-		<About/>
-		<Experience/>
-		<Education/>
-		<Skills/>
-		<Projects/>
+		<Hero resume={resume} />
+        <About resume={resume}/>
+        <Experience resume={resume}/>
+        <Education resume={resume}/>
+        <Skills resume={resume}/>
+        <Projects resume={resume}/>
 	</main>
 </Layout>
 
