@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy
 
 on:
   workflow_dispatch:
@@ -20,12 +20,12 @@ on:
 # Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
-  pages: write
   id-token: write
   deployments: write
 
 jobs:
   build:
+    name: Build Astro page
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
@@ -45,6 +45,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    name: Deploy to cloudflare page
     environment:
       name: Cloudflare Pages
       url: https://cv.d-rose.io
