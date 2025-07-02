@@ -1,0 +1,12 @@
+site_name: 'cv'
+site_description: 'Website cv simple'
+repo_url: https://github.com/drc288/cv
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.js`
+nav:
+  - Overview:
+      - Estructura del proyecto: 'index.md'
